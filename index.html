@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="calc-style.css">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container con1 shadow">
+        <h1 class="display-1 h1a header">Calculator</h1>
+    </div>
+        <div class="container bg-primary">
+        <div class="card bg-light display1 shadow sticky-top">
+            <h1 class="h1b" id="display" ></h1>
+        </div>
+        <div id="btnnums">
+            <div class="d-flex inline">
+                <div class="p-2">
+                    <button class="btn btn-outline-primary btn5" type="button" id="clear"><b>C</b></button>
+                </div>
+                <div class="p-2">
+                    <button class="btn btn-outline-primary btn5 display3" type="button">/</button>
+                </div>
+                <div class="p-2">
+                    <button class="btn btn-outline-primary btn5 display3" type="button">*</button>
+                </div>
+                <div class="p-2">
+                    <button class="btn btn-outline-primary btn5" id="delete" type="button"><i class="fa fa-trash"></i></button>
+                </div>
+            </div>
+            <div class="d-flex inline">
+                <div class="p-2">
+                    <button class="btn btn-outline-primary btn2 display3" type="button" id="nums">7</button>
+                </div>
+                <div class="p-2">
+                    <button class="btn btn-outline-primary btn2 display3" type="button">8</button>
+                </div>
+                <div class="p-2">
+                    <button class="btn btn-outline-primary btn2 display3" type="button">9</button>
+                </div>
+                <div class="p-2">
+                    <button class="btn btn-outline-primary btn5 display3" type="button">-</button>
+                </div>
+            </div>
+            <div class="d-flex inline">
+                <div class="p-2">
+                    <button class="btn btn-outline-primary btn2 display3" type="button">4</button>
+                </div>
+                <div class="p-2">
+                    <button class="btn btn-outline-primary btn2 display3" type="button">5</button>
+                </div>
+                <div class="p-2">
+                    <button class="btn btn-outline-primary btn2 display3" type="button">6</button>
+                </div>
+                <div class="p-2">
+                    <button class="btn btn-outline-primary btn5 display3" type="button">+</button>
+                </div>
+            </div>
+            <div class="d-flex inline">
+                <div class="p-2">
+                    <button class="btn btn-outline-primary btn2 display3" type="button">1</button>
+                </div>
+                <div class="p-2">
+                    <button class="btn btn-outline-primary btn2 display3" type="button">2</button>
+                </div>
+                <div class="p-2">
+                    <button class="btn btn-outline-primary btn2 display3" type="button">3</button>
+                </div>
+                <div class="p-2">
+                    <button class="btn btn3" type="button" id="equls"><i class="fas fa-equals" ></i></button>
+                </div>
+            </div>
+            <div class="d-flex inline fk">
+                <div class="p-2">
+                    <button class="btn btn-outline-primary btn2 display3" type="button">%</button>
+                </div>
+                <div class="p-2">
+                    <button class="btn btn-outline-primary btn2 display3" type="button">0</button>
+                </div>
+                <div class="p-2">
+                    <button class="btn btn-outline-primary btn2 display3" type="button">.</button>
+                </div>
+            </div>
+            <button type="button" class="btn btn4" data-bs-toggle="collapse" data-bs-target="#demo"><i class="fas fa-solid fa-square-root-alt"></i></button>
+            <div id="demo" class="collapse collapse1">
+                <div class="d-flex inline">
+                    <div class="p-2">
+                        <button class="btn btn-outline-primary btn2 display3" id="btnnums1" type="button">!</button>
+                    </div>
+                    <div class="p-2">
+                        <button class="btn btn-outline-primary btn2 display3" id="btnnums1" type="button">(</button>
+                    </div>
+                    <div class="p-2">
+                        <button class="btn btn-outline-primary btn2 display3" id="btnnums1" type="button">)</button>
+                    </div>
+                    <div class="p-2">
+                        <button class="btn btn-outline-primary btn2 display3" id="btnnums1" type="button"><i class="fa fa-square-root-alt i1"></i></button>
+                    </div>
+                </div>
+                <div class="d-flex inline">
+                    <div class="p-2">
+                        <button class="btn btn-outline-primary btn2 display3" type="button">INV</button>
+                    </div>
+                    <div class="p-2">
+                        <button class="btn btn-outline-primary btn2 display3" type="button">RAD</button>
+                    </div>
+                    <div class="p-2">
+                        <button class="btn btn-outline-primary btn2 display3" type="button">in</button>
+                    </div>
+                    <div class="p-2">
+                        <button class="btn btn-outline-primary btn2 display3" id="btnnums1" type="button">log</button>
+                    </div>
+                </div>
+                <div class="d-flex inline">
+                    <div class="p-2">
+                        <button class="btn btn-outline-primary btn2 display3" type="button"><i class="fas fa-chart-pie"></i></button>
+                    </div>
+                    <div class="p-2">
+                        <button class="btn btn-outline-primary btn2 display3" type="button">tan</button>
+                    </div>
+                    <div class="p-2">
+                        <button class="btn btn-outline-primary btn2 display3" type="button">e</button>
+                    </div>
+                    <div class="p-2">
+                        <button class="btn btn-outline-primary btn2 display3" type="button">^</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="calc-index.js"></script>
+<script src="bootstrap5/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
